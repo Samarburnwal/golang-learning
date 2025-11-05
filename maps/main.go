@@ -19,4 +19,14 @@ func main() {
 	fmt.Println(val, ", exist ? :", exist)
 	val1, exist1 := marks["akash"]
 	fmt.Println(val1, ", exist ? :", exist1)
+
+	person := map[string]int {
+		"Alice" : 1,
+		"Bbb" : 3,
+		"Charlie" : 4,
+	}
+
+	for index, val := range person {
+		fmt.Println(index, ":", val)
+	}
 }
